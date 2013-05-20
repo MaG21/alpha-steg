@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 # encoding: UTF-8
 # Author: MaG
-# URL: http://newbieshell.blogspot.com
+# http://newbieshell.blogspot.com/2012/07/esteganografia-el-canal-alfa.html
 
 require 'chunky_png'
 require 'getoptlong'
