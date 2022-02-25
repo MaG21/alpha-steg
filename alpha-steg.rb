@@ -148,7 +148,7 @@ unless var[:png_image]
 end
 
 begin
-	if not File.exists? var[:png_image] or var[:png_image] =~ /\.png$/i
+	unless File.exists? var[:png_image] or var[:png_image] =~ /\.png$/i
 		$stderr.puts "--> Image not found or it is not a *.png image `#{var[:png_image]}'"
 		exit
 	end
